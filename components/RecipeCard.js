@@ -10,8 +10,8 @@ export default function RecipeCard({ recipe }) {
       <div className="featured">
         <Image 
             src={'https:' + thumbnail.fields.file.url}
-            width={thumbnail.fields.file.details.image.width}
-            height={thumbnail.fields.file.details.image.height}
+            width={522} //width={thumbnail.fields.file.details.image.width}
+            height={347} //height={thumbnail.fields.file.details.image.height}
         />
       </div>
       
