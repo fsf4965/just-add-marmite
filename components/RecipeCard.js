@@ -56,7 +56,7 @@ export default function RecipeCard({ recipe }) {
         }
         .actions a {
           color: #fff;
-          background: #f01b29;
+          background: #ff9c2a;
           padding: 16px 24px;
           text-decoration: none;
         }
